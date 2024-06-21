@@ -1,0 +1,15 @@
+{
+  "name": "pop-hono",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "build": "bun build src/index.ts",
+    "dev": "bun run src/index.ts"
+  },
+  "dependencies": {
+    "hono": "^4.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.1"
+  }
+}
